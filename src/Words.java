@@ -1,12 +1,11 @@
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class Words extends Main{
+public class Words extends Hangman {
     public static String getWord() throws IOException {
 
         BufferedReader reader = new BufferedReader(new FileReader("/home/xpanxion/Words.txt"));
