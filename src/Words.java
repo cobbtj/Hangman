@@ -18,7 +18,7 @@ public class Words extends Hangman {
                 words.add(word);
             }
             line = reader.readLine();
-        }
+        
 
         Random rand = new Random(System.currentTimeMillis());
         String randomWord = words.get(rand.nextInt(words.size()));

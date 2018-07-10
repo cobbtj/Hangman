@@ -1,7 +1,7 @@
 import java.io.IOException;
 import java.util.Scanner;
 import java.util.ArrayList;
-
+//
 import static java.lang.String.valueOf;
 
 public class Hangman {
